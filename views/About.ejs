@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10000;
+    background-color: white;
+    box-shadow: 0px 3px 5px 0px rgba(207,207,207,0.75);
+-webkit-box-shadow: 0px 3px 5px 0px rgba(207,207,207,0.75);
+-moz-box-shadow: 0px 3px 5px 0px rgba(207,207,207,0.75);
+}
+.main-header{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+   }
+
+.main-menu{
+    width: 100%;
+    height: 50px;
+    
+}
+
+.main-menu ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    font: weight 400px;;
+    font-size: 20px;
+    font-family:'Roboto', sans-serif;
+    color: #ababab;
+    margin: 0;
+}
+.main-menu li:hover,a:hover{
+    color:#b3007d;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    color: #ababab;
+}
+    </style>
+</head>
+<body>
+    <header class="main-header">
+    <div class="main-menu">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about"  style="color:#b3007d">About Me</a></li>
+          <li><a href="/contact">Contact us</a></li>
+        </ul>
+      </div>
+</header>
+<div style="width: 100vw;height: 100vh;display: flex;">
+<img style="width: 50%;height: 70%;border-radius: 60% 50%;border: black solid 1px;" src="https://scontent.ftun15-1.fna.fbcdn.net/v/t39.30808-6/331770879_748058593403294_3434043326819166523_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=JqtXaKxaicsAX9AAjPp&_nc_ht=scontent.ftun15-1.fna&oh=00_AfAOM17QS2KAeJD7hHAI3dObtRd520NmfyyztfiiDgCi6Q&oe=641C68EC" alt="me"/>
+    <p style="background-color: #d2d0d09b; padding:10px;font-size: 20px; height: 250px; border: black solid 1px;border-radius: 20px; margin: 150px 200px 0 0 ;line-height: 2;">"Hello, My name is Ahlem and I am currently learning web development at GoMyCode.Although ,I am coming from an energetic-systems-engineering background,I found myself loving building web pages where I am actually able to create enjoyable interactions and experiences for everyone! And with GoMyCode education and support,I'd be calling myself a developer very soon!!"
+    </p>
+</div>
+</body>
+</html>
